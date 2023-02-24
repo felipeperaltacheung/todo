@@ -24,7 +24,7 @@ function App() {
   };
 
   return (
-    <div>
+    <div >
       <h1>Task List</h1>
       <TaskList tasks={tasks} />
       <TaskForm onCreateTask={handleCreateTask} />
